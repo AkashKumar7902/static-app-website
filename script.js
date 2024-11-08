@@ -119,8 +119,191 @@ const apps = [
         appName: "Date Chat - Meet & Video",
         appCategory: "Dating",
         safetyStatus: "Safe"
+    },
+
+    {
+        appId: "com.snapchat.android",
+        appName: "Snapchat",
+        appCategory: "Social",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.airbnb.android",
+        appName: "Airbnb",
+        appCategory: "Travel & Local",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.google.android.calendar",
+        appName: "Google Calendar",
+        appCategory: "Productivity",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.facebook.lite",
+        appName: "Facebook Lite",
+        appCategory: "Social",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.tiktok",
+        appName: "TikTok",
+        appCategory: "Social",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.nike.android.sneakers",
+        appName: "Nike SNKRS",
+        appCategory: "Shopping",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.google.android.gm",
+        appName: "Gmail",
+        appCategory: "Communication",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.netflix.mediaclient",
+        appName: "Netflix",
+        appCategory: "Entertainment",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.whatsapp.w4b",
+        appName: "WhatsApp Business",
+        appCategory: "Business",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.dailymotion.dailymotion",
+        appName: "Dailymotion",
+        appCategory: "Video Players & Editors",
+        safetyStatus: "Safe"
+    },
+
+    {
+        appId: "com.spotify.music",
+        appName: "Spotify",
+        appCategory: "Music & Audio",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.microsoft.office.word",
+        appName: "Microsoft Word",
+        appCategory: "Productivity",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.snapchat.android",
+        appName: "Snapchat",
+        appCategory: "Social",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.nintendo.zara",
+        appName: "Zara",
+        appCategory: "Shopping",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.samsung.android.messaging",
+        appName: "Samsung Messages",
+        appCategory: "Communication",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.oracle.mobile.cloud",
+        appName: "Oracle Cloud",
+        appCategory: "Business",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.viber.voip",
+        appName: "Viber",
+        appCategory: "Communication",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.google.android.maps",
+        appName: "Google Maps",
+        appCategory: "Maps & Navigation",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.strava",
+        appName: "Strava",
+        appCategory: "Health & Fitness",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.facebook.orca",
+        appName: "Facebook Messenger",
+        appCategory: "Communication",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.yelp.android",
+        appName: "Yelp",
+        appCategory: "Food & Drink",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.slack",
+        appName: "Slack",
+        appCategory: "Productivity",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.netflix.mediaclient",
+        appName: "Netflix",
+        appCategory: "Entertainment",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.alibaba.android",
+        appName: "AliExpress",
+        appCategory: "Shopping",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.asana.app",
+        appName: "Asana",
+        appCategory: "Productivity",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.microsoft.launcher",
+        appName: "Microsoft Launcher",
+        appCategory: "Personalization",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.waze",
+        appName: "Waze",
+        appCategory: "Maps & Navigation",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.cnn.mobile.android",
+        appName: "CNN",
+        appCategory: "News & Magazines",
+        safetyStatus: "Safe"
+    },
+    {
+        appId: "com.spotify.android.podcast",
+        appName: "Spotify Podcasts",
+        appCategory: "Music & Audio",
+        safetyStatus: "Unsafe"
+    },
+    {
+        appId: "com.zoom.us",
+        appName: "Zoom Cloud Meetings",
+        appCategory: "Productivity",
+        safetyStatus: "Safe"
     }
 ];
+
 
 // Function to create app cards
 function createAppCards() {
