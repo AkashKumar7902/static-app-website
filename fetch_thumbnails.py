@@ -138,6 +138,13 @@ def main():
 
     for app_id in app_ids:
         print(f"Processing app ID: {app_id}")
+        save_path = os.path.join(THUMBNAILS_DIR, f"{app_id}.png")
+        
+        # Check if the image already exists
+        if os.path.exists(save_path):
+            print(f"Thumbnail already exists: {save_path}")
+            continue
+
         icon_url = fetch_app_icon_url(app_id)
         if icon_url:
             # Some URLs might be HTTP, convert to HTTPS
@@ -145,9 +152,6 @@ def main():
                 icon_url = 'https:' + icon_url
             elif icon_url.startswith('http://'):
                 icon_url = icon_url.replace('http://', 'https://', 1)
-
-            # Define the path to save the thumbnail
-            save_path = os.path.join(THUMBNAILS_DIR, f"{app_id}.png")
 
             # Download and save the image
             download_image(icon_url, save_path)
